@@ -10,6 +10,20 @@
     [“Russia”, “Denmark”, “Kazan”] → []
 */
 
+string[] array = {"1234", "1567", "-2", "computer science"};
+
+void ReconstructMassive(string[] ar)
+{
+  for (int i = 0; i < array.Length; i++)
+  {
+    if (ar[i].Length <= 3)
+    {
+    }
+    else ar[i] = string.Empty;
+  }
+}
+ReconstructMassive(array);  
+Console.WriteLine(string.Join(" ",array));
 
 
     
